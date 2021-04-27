@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+jupyter = "*"
+notebook = "*"
+seaborn = "*"
+sklearn = "*"
+fastapi = "*"
+uvicorn = "*"
+pandas = "*"
+pydantic = "*"
+joblib = "*"
+ipython = "*"
+pyngrok = "*"
+nest-asyncio = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
