@@ -7,15 +7,14 @@ import pandas as pd
 from pydantic import BaseModel, confloat
 
 description = """
-Deploys a logistic regression model fit on the [Palmer Penguins](https://github.com/allisonhorst/palmerpenguins) dataset.
+Deploys a K Nearest Neighbor Model fit on the [Spotify](https://www.kaggle.com/yamaerenay/spotify-dataset-19212020-160k-tracks?select=tracks.csv) dataset.
 
-<img src="https://raw.githubusercontent.com/allisonhorst/palmerpenguins/master/man/figures/lter_penguins.png" width="40%" /> <img src="https://raw.githubusercontent.com/allisonhorst/palmerpenguins/master/man/figures/culmen_depth.png" width="30%" />
+<img src="https://www.bing.com/images/search?view=detailV2&ccid=MyKc5S3r&id=06AF71454D84A89FDBEF3C0BC8F046FF4842E5E5&thid=OIP.MyKc5S3r-n8ER2kwZUHh7gHaDW&mediaurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR33229ce52debfa7f044769306541e1ee%3frik%3d5eVCSP9G8MgLPA%26riu%3dhttp%253a%252f%252fmedia.idownloadblog.com%252fwp-content%252fuploads%252f2016%252f06%252fSpotify_logo_horizontal_black.jpg%26ehk%3dz9ClqCYg7MldmX8d1MAegCslS%252bAN0VU4sUH51qVgbjM%253d%26risl%3d%26pid%3dImgRaw&exph=1428&expw=3159&q=spotify&simid=608036742061648572&ck=24E3DADD5F5E8311DCABF0D95F8C58F0&selectedIndex=12&FORM=IRPRST&ajaxhist=0" width="40%" /> 
 
-Artwork by [@allison_horst](https://twitter.com/allison_horst)
 """
 
 app = FastAPI(
-    title='🐧 Penguin predictor API',
+    title='Spotfy Song redictor API',
     description=description, 
     docs_url='/'
 )
